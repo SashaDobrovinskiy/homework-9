@@ -1,0 +1,58 @@
+@import url('reset.css');
+
+.header {
+    background: #40374b;
+    height: 80px;
+    margin-bottom: 60px;
+}
+
+.header-title {
+    color: aliceblue;
+    text-align: center;
+    font-size: 60px;
+    justify-content: center;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.gallery-img {
+    width: 1000px;
+    height: 550px;
+    margin: auto;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 30px;
+    align-items: center;
+}
+
+.gallery-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+    margin: 0 auto;
+    object-fit: cover;
+
+}
+
+.gallery-img p {
+    color: #ffffff;
+    padding: 10px;
+    height: 90px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 255, 255, 0.295);
+    opacity: 0;
+    text-align: center; 
+    border-radius: 6px;
+    border-color: gray;
+}
+
+.gallery-img:hover p {
+    opacity: 1;
+}
